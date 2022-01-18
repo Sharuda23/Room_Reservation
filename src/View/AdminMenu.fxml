@@ -13,7 +13,7 @@
             <Image url="@../Assets/AdminMenuBg.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="HomeAdminMenu" fitHeight="54.0" fitWidth="57.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#ClickOnActionAMHome" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="HomeAdminMenu" fitHeight="54.0" fitWidth="57.0" layoutX="1092.0" layoutY="14.0" onMouseClicked="#ClickOnActionAMHome" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/HomeIco.png" />
          </image>
@@ -38,5 +38,10 @@
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
+      <ImageView fx:id="BackBtn" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="16.0" onMouseClicked="#ClickOnActionBack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_arrow_back_white_24dp.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

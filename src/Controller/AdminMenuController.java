@@ -46,4 +46,9 @@ public class AdminMenuController {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void ClickOnActionBack(MouseEvent mouseEvent) {
+    }
 }
+
+

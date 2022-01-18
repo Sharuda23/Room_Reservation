@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminMenuController">
+<AnchorPane fx:id="AdminMenuContext" prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminMenuController">
    <children>
       <ImageView fitHeight="806.0" fitWidth="1220.0" pickOnBounds="true">
          <image>
@@ -18,7 +18,7 @@
             <Image url="@../Assets/HomeIco.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="1152.0" layoutY="14.0" pickOnBounds="true">
+      <ImageView fx:id="LoginFormBtn" fitHeight="54.0" fitWidth="54.0" layoutX="1152.0" layoutY="14.0" onMouseClicked="#ClickOnActionLog" pickOnBounds="true">
          <image>
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>

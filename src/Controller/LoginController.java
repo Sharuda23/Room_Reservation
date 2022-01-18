@@ -19,7 +19,7 @@ public class LoginController {
     public AnchorPane LoginContext;
     public TextField txtUserName;
     public PasswordField pwdPassword;
-    String Admin="admin";
+    String Admin="amin";
     public void ClickOnAction(ActionEvent actionEvent) throws IOException {
         if(Admin == "admin") {
             Stage stage =(Stage) LoginContext.getScene().getWindow();

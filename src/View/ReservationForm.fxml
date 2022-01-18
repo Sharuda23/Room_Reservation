@@ -85,17 +85,17 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </JFXButton>
-      <ImageView fx:id="HomeBtn" fitHeight="50.0" fitWidth="50.0" layoutX="1104.0" layoutY="13.0" onMouseClicked="#HomeClickOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="HomeBtn" fitHeight="40.0" fitWidth="40.0" layoutX="1126.0" layoutY="13.0" onMouseClicked="#HomeClickOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/HomeIco.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="LoginFBtn" fitHeight="50.0" fitWidth="50.0" layoutX="1154.0" layoutY="14.0" onMouseClicked="#LoginClickOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="LoginFBtn" fitHeight="40.0" fitWidth="40.0" layoutX="1166.0" layoutY="13.0" onMouseClicked="#LoginClickOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="BackBtn" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="13.0" onMouseClicked="#BackClickOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="BackBtn" fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="13.0" onMouseClicked="#BackClickOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/outline_arrow_back_white_24dp.png" />
          </image>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeController">
+   <children>
+      <ImageView fitHeight="806.0" fitWidth="1220.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/Rectangle%201.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="114.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue Ocean Hotel" wrappingWidth="991.640625">
+         <font>
+            <Font name="Berlin Sans FB" size="96.0" />
+         </font>
+      </Text>
+      <Text layoutX="114.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A hotel is an accommodation that provides services and facilities forguests to stay. Endar and Sri (2003, p.8) state that hotel is a commercial buildingto provide lodging services and facilities for public such as lodging, luggage, foodand beverage, and laundry. Most hotels and major hospitality companies have setindustry standards to give service for guests. There are some departments in thehotel can give service for guest, one of departments is front office." textAlignment="JUSTIFY" wrappingWidth="480.13671875" />
+      <Text fill="WHITE" layoutX="1090.0" layoutY="796.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel- +94123456789" wrappingWidth="129.13671875">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1144.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_restaurant_white_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1144.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_local_bar_white_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1144.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_king_bed_white_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1144.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_network_wifi_2_bar_white_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1144.0" layoutY="557.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_wc_white_24dp.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnRegister" layoutX="114.0" layoutY="338.0" onAction="#clickOnAction" prefHeight="50.0" prefWidth="129.0" style="-fx-background-color: #c8d6e5;" text="Register" />
+   </children>
+</AnchorPane>

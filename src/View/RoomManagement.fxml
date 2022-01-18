@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RoomManagementController">
+   <children>
+      <ImageView fitHeight="806.0" fitWidth="1220.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/RoomManagementBg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/HomeIco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="610.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1166.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_account_circle_white_24dp.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="98.0" layoutY="157.0" opacity="0.89" prefHeight="518.0" prefWidth="1008.0" style="-fx-background-color: #c8d6e5;">
+         <children>
+            <Text layoutX="54.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Number :">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="357.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Type :">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <JFXComboBox fx:id="LstRoomType" editable="true" layoutX="444.0" layoutY="55.0" prefHeight="25.0" prefWidth="136.0" promptText="Single" visibleRowCount="4" />
+            <JFXButton fx:id="btnAdd" blendMode="SRC_ATOP" buttonType="RAISED" layoutX="649.0" layoutY="48.0" prefHeight="40.0" prefWidth="136.0" ripplerFill="#bf4848" style="-fx-background-color: #10ac84;" text="Add" textFill="WHITE" />
+            <TableView fx:id="tblRoom" layoutX="151.0" layoutY="135.0" prefHeight="320.0" prefWidth="660.0">
+              <columns>
+                <TableColumn prefWidth="253.0" text="Room No" />
+                <TableColumn minWidth="0.0" prefWidth="245.0" text="Room Type" />
+                  <TableColumn prefWidth="208.0" />
+              </columns>
+            </TableView>
+            <JFXButton fx:id="btnUpdate" blendMode="SRC_ATOP" buttonType="RAISED" layoutX="814.0" layoutY="48.0" prefHeight="40.0" prefWidth="136.0" ripplerFill="#bf3131" style="-fx-background-color: #d6be36;" text="Update" textFill="WHITE" />
+            <TextField layoutX="166.0" layoutY="55.0" prefHeight="25.0" prefWidth="156.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

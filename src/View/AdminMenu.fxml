@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminMenuController">
+   <children>
+      <ImageView fitHeight="806.0" fitWidth="1220.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/AdminMenuBg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="57.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/HomeIco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="1152.0" layoutY="14.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Assets/outline_account_circle_white_24dp.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="508.0" layoutY="241.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Room Management">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="508.0" layoutY="368.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Meal Packages">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="508.0" layoutY="499.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Income Reports">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

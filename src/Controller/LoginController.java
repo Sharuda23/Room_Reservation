@@ -13,9 +13,23 @@ import java.net.URL;
 
 public class LoginController {
     public ImageView HomeIco;
-
-    public void ClickOnAction(ActionEvent actionEvent) {
-
+    String Admin="admin";
+    public void ClickOnAction(ActionEvent actionEvent) throws IOException {
+        if(Admin=="admin") {
+            URL resource = getClass().getResource("../View/AdminMenu.fxml");
+            Parent load = FXMLLoader.load(resource);
+            Scene scene = new Scene(load);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.show();
+        }else{
+            URL resource = getClass().getResource("../View/ReciptionistMenu.fxml");
+            Parent load = FXMLLoader.load(resource);
+            Scene scene = new Scene(load);
+            Stage stage = new Stage();
+            stage.setScene(scene);
+            stage.show();
+        }
     }
 
     public void ClickOnHome(MouseEvent mouseEvent) {

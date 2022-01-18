@@ -23,7 +23,7 @@
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="ReservationBtn" layoutX="501.0" layoutY="320.0" onAction="#ClickOnAction" prefHeight="50.0" prefWidth="216.0" style="-fx-background-color: FBC531;" text="Reservation">
+      <JFXButton fx:id="ReservationBtn" layoutX="501.0" layoutY="320.0" onAction="#ClickOnActionRes" prefHeight="50.0" prefWidth="216.0" style="-fx-background-color: FBC531;" text="Reservation">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

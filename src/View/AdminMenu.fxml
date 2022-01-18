@@ -13,7 +13,7 @@
             <Image url="@../Assets/AdminMenuBg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="54.0" fitWidth="57.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="HomeAdminMenu" fitHeight="54.0" fitWidth="57.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#ClickOnActionAMHome" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/HomeIco.png" />
          </image>
@@ -23,17 +23,17 @@
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>
       </ImageView>
-      <JFXButton buttonType="RAISED" layoutX="508.0" layoutY="241.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Room Management">
+      <JFXButton fx:id="RoomManageBtn" buttonType="RAISED" layoutX="508.0" layoutY="241.0" onAction="#ClickOnActionRm" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Room Management">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="508.0" layoutY="368.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Meal Packages">
+      <JFXButton fx:id="MealPackageBtn" layoutX="508.0" layoutY="368.0" onAction="#ClickOnActionMp" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Meal Packages">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="508.0" layoutY="499.0" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Income Reports">
+      <JFXButton fx:id="IncomeRepBtn" layoutX="508.0" layoutY="499.0" onAction="#ClickOnActionIR" prefHeight="67.0" prefWidth="205.0" style="-fx-background-color: FBC531;" text="Income Reports">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

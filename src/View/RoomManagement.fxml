@@ -11,20 +11,23 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RoomManagementController">
+<AnchorPane fx:id="RoomManagementContext" prefHeight="806.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RoomManagementController">
    <children>
       <ImageView fitHeight="806.0" fitWidth="1220.0" pickOnBounds="true">
          <image>
             <Image url="@../Assets/RoomManagementBg.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="HomeBtn" fitHeight="40.0" fitWidth="40.0" layoutX="1126.0" layoutY="14.0" onMouseClicked="#HomeOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/HomeIco.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="610.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1166.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="BackBtn" fitHeight="40.0" fitWidth="40.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#BackClickOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/outline_arrow_back_white_24dp.png" />
+         </image></ImageView>
+      <ImageView fx:id="LoginBtn" fitHeight="40.0" fitWidth="40.0" layoutX="1166.0" layoutY="14.0" onMouseClicked="#LoginOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>

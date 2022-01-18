@@ -28,7 +28,7 @@
             <Font name="Arial Rounded MT Bold" size="31.0" />
          </font>
       </Text>
-      <TextField layoutX="399.0" layoutY="333.0" prefHeight="57.0" prefWidth="431.0" promptText="UserName">
+      <TextField fx:id="txtUserName" layoutX="399.0" layoutY="333.0" prefHeight="57.0" prefWidth="431.0" promptText="UserName">
          <font>
             <Font size="13.0" />
          </font>
@@ -47,7 +47,7 @@
             <Image url="@../Assets/HomeIco.png" />
          </image>
       </ImageView>
-      <PasswordField layoutX="398.0" layoutY="433.0" prefHeight="57.0" prefWidth="431.0" promptText="Password">
+      <PasswordField fx:id="pwdPassword" layoutX="398.0" layoutY="433.0" prefHeight="57.0" prefWidth="431.0" promptText="Password">
          <font>
             <Font size="13.0" />
          </font>

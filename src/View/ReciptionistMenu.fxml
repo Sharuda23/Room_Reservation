@@ -23,12 +23,12 @@
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="ReservationBtn" layoutX="501.0" layoutY="320.0" onAction="#ClickOnActionRes" prefHeight="50.0" prefWidth="216.0" style="-fx-background-color: FBC531;" text="Reservation">
+      <JFXButton fx:id="ReservationBtn" layoutX="486.0" layoutY="283.0" onAction="#ClickOnActionRes" prefHeight="71.0" prefWidth="247.0" style="-fx-background-color: FBC531;" text="Reservation">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="CheckAvailabilityBtn" layoutX="501.0" layoutY="436.0" onAction="#ClickOnAction" prefHeight="50.0" prefWidth="216.0" style="-fx-background-color: FBC531;" text="Room Status">
+      <JFXButton fx:id="CheckAvailabilityBtn" layoutX="486.0" layoutY="423.0" onAction="#ClickOnAction" prefHeight="71.0" prefWidth="247.0" style="-fx-background-color: FBC531;" text="Room Status">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

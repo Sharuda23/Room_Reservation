@@ -1,5 +1,6 @@
 package Controller;
 
+import com.jfoenix.controls.JFXComboBox;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
@@ -10,6 +11,14 @@ import java.io.IOException;
 
 public class RoomManagementController {
     public AnchorPane RoomManagementContext;
+    public JFXComboBox<String> LstRoomType;
+
+    public void initialize(){
+        LstRoomType.getItems().add("Single");
+        LstRoomType.getItems().add("Double");
+        LstRoomType.getItems().add("Triple");
+        LstRoomType.getItems().add("Quad");
+    }
 
     public void HomeOnAction(MouseEvent mouseEvent) throws IOException {
         Stage stage =(Stage) RoomManagementContext.getScene().getWindow();

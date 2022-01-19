@@ -27,7 +27,7 @@
             <Image url="@../Assets/outline_account_circle_white_24dp.png" />
          </image>
       </ImageView>
-      <AnchorPane focusTraversable="true" layoutX="74.0" layoutY="122.0" opacity="0.87" prefHeight="581.0" prefWidth="1073.0" style="-fx-background-color: #c8d6e5;">
+      <AnchorPane focusTraversable="true" layoutX="209.0" layoutY="125.0" opacity="0.87" prefHeight="581.0" prefWidth="803.0" style="-fx-background-color: #c8d6e5;">
          <children>
             <JFXButton buttonType="RAISED" layoutX="427.0" layoutY="57.0" prefHeight="44.0" prefWidth="136.0" style="-fx-background-color: #10AC84;" text="Add">
                <font>
@@ -47,7 +47,7 @@
             <TextField layoutX="140.0" layoutY="66.0" prefHeight="25.0" prefWidth="219.0" />
             <TableView layoutX="41.0" layoutY="151.0" prefHeight="309.0" prefWidth="509.0">
               <columns>
-                <TableColumn prefWidth="508.0" text="Meal Packages" />
+                <TableColumn prefWidth="401.0" text="Meal Packages" />
               </columns>
             </TableView>
          </children>
